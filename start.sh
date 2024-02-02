@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /alive
 fi
-cd /THALAPATHY-FILTER-BOT 
+cd /alive
 pip3 install -U -r requirements.txt
 echo "Starting aliveBot...."
 python3 bot.py
